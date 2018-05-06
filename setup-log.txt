@@ -1,0 +1,38 @@
+Installations:
+- chrome browser
+
+Configuration
+Desktop
+    1. Remove all unnecessary stuff from dock
+    2. Move dock to right hand side and set autohide
+    3. speed up dock autohide
+	defaults write com.apple.dock autohide-time-modifier -float 0.02;killall Dock
+    4.
+Keyboard
+    1. Keyboard repeat Fast
+    2. Keyboard repeat delay quickest
+    3. Dim keyboard light and switch off automatic keyboard light adjustment
+    4. Add hungarian layout
+    5. Add keyboard shorcut Cmd-2 to change input source
+Terminal
+    1. Homebrew theme
+    2. Disable audio bell + unset visual bell only when muted
+
+Coding Tools
+    Editor
+	1. VS Code
+    Package/lib management
+	1. install yarn (brew install yarn)
+    Frameworks 
+	1. install heroku (brew install heroku/brew/heroku
+    Source code management
+	1. hub for github (brew install hub)
+
+MacOS Package manager
+    1. brew
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Bluetooth
+    1. Turn on bluetooth
+    2. set visible in menubar
+    3. Disable "Allow Handoff between this Mac and your iCloud device" otherwise it will be flaky
