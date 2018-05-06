@@ -20,13 +20,13 @@ Terminal
 
 Coding Tools
     Editor
-	1. VS Code
+	    1. VS Code
     Package/lib management
-	1. install yarn (brew install yarn)
+	    1. install yarn (brew install yarn)
     Frameworks 
-	1. install heroku (brew install heroku/brew/heroku
+	    1. install heroku (brew install heroku/brew/heroku
     Source code management
-	1. hub for github (brew install hub)
+	    1. hub for github (brew install hub)
 
 MacOS Package manager
     1. brew
@@ -36,3 +36,7 @@ Bluetooth
     1. Turn on bluetooth
     2. set visible in menubar
     3. Disable "Allow Handoff between this Mac and your iCloud device" otherwise it will be flaky
+
+Login, security
+    1. generate ssh key
+        ssh-keygen -t rsa -C "garaycs@gmail.com"
