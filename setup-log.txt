@@ -27,6 +27,7 @@ Coding Tools
 	    1. install heroku (brew install heroku/brew/heroku
     Source code management
 	    1. hub for github (brew install hub)
+        2. add ssh key to github (https://gist.github.com/adamjohnson/5682757)
 
 MacOS Package manager
     1. brew
