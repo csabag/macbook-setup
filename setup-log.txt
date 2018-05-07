@@ -41,3 +41,6 @@ Bluetooth
 Login, security
     1. generate ssh key
         ssh-keygen -t rsa -C "garaycs@gmail.com"
+
+3D printing
+    1. Install Cura 3.3.1
